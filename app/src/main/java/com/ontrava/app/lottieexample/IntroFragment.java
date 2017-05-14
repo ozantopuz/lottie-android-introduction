@@ -40,9 +40,6 @@ public class IntroFragment extends Fragment {
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
-
-
-
     }
 
     @Override
@@ -66,6 +63,6 @@ public class IntroFragment extends Fragment {
 
     @OnClick(R.id.intro_button)
     public void onViewClicked() {
-
+        ((MainActivity) getActivity()).showDownloadFragment();
     }
 }

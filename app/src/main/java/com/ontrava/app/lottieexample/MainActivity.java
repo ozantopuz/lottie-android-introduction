@@ -18,5 +18,7 @@ public class MainActivity extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(FRAME, IntroFragment.newInstance(this)).commit();
     }
 
-
+    public void showDownloadFragment() {
+        getSupportFragmentManager().beginTransaction().replace(FRAME, DownloadFragment.newInstance(this)).commit();
+    }
 }
