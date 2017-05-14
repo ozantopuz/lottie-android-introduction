@@ -50,7 +50,7 @@ public class DownloadFragment extends Fragment {
 
             @Override public void onAnimationEnd(Animator animation) {
                 Toast.makeText(getActivity(), "Finished", Toast.LENGTH_SHORT).show();
-                //((MainActivity) getActivity()).showDownloadFragment();
+                ((MainActivity) getActivity()).showEndFragment();
             }
 
             @Override public void onAnimationCancel(Animator animation) {
