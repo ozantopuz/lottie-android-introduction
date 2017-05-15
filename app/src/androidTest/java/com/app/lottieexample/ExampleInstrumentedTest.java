@@ -1,4 +1,4 @@
-package com.ontrava.app.lottieexample;
+package com.app.lottieexample;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ontrava.app.lottieexample", appContext.getPackageName());
+        assertEquals("com.app.lottieexample", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.ontrava.app.lottieexample;
+package com.app.lottieexample;
 
 import android.animation.Animator;
 import android.content.Context;

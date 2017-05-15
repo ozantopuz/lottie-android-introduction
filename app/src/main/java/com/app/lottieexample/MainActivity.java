@@ -1,4 +1,4 @@
-package com.ontrava.app.lottieexample;
+package com.app.lottieexample;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

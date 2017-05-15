@@ -1,4 +1,4 @@
-package com.ontrava.app.lottieexample;
+package com.app.lottieexample;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -45,7 +45,6 @@ public class IntroFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
-        mLottie.setProgress(0f);
         mLottie.playAnimation();
     }
 
